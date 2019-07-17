@@ -55,4 +55,13 @@ ex) nd1.team3.com
 172.31.4.97 nd5.team5.com nd5
 
 위와 같이 작성
+
+sudo reboot 로 재시작
+
+재부팅 후 ssh로 각 노드들 접속해보기
+
+7. Show the nscd service is running
+sudo yum install nscd -y
+8. Show the ntpd service is running
+sudo yum install ntp -y
 ```
