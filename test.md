@@ -31,5 +31,8 @@ transparent_hugepage=never
 아래 명령어 실행
 grub2-mkconfig -o /boot/grub2/grub.cfg
 
+5. List your network interface configuration
+ip addr 명령어 실행
 
+6. 
 ```
