@@ -5,7 +5,7 @@ swap 확인
 sysctl vm.swappiness
 
 영구 적용 위해 /etc/sysctl.conf 추가 필요
-vi /etc/sysctl.conf --> vm.swappiness = 1 로 수정
+vi /etc/sysctl.conf --> vm.swappiness = 1 추가
 
 2. Show the mount attributes of your volume(s)
 아래 명령어로 확인
