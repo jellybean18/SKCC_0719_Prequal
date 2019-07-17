@@ -62,6 +62,11 @@ sudo reboot 로 재시작
 
 7. Show the nscd service is running
 sudo yum install nscd -y
+sudo systemctl start nscd --> 서비스 시작
+systemctl status nscd -> 서비스 상태 확인
+
 8. Show the ntpd service is running
 sudo yum install ntp -y
+sudo systemctl start ntpd --> 서비스 시작
+systemctl status ntpd --> 서비스 상태 확인
 ```
