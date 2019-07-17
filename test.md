@@ -47,5 +47,12 @@ hostname 설정
 sudo hostnamectl set-hostname 노드번호.team3.com
 ex) nd1.team3.com
 
+/etc/hosts 설정
+172.31.0.147 nd1.team3.com nd1
+172.31.2.54 nd2.team3.com nd2
+172.31.7.7 nd3.team3.com nd3
+172.31.2.235 nd4.team4.com nd4
+172.31.4.97 nd5.team5.com nd5
 
+위와 같이 작성
 ```
