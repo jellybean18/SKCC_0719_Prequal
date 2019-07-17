@@ -70,3 +70,4 @@ sudo yum install ntp -y
 sudo systemctl start ntpd --> 서비스 시작
 systemctl status ntpd --> 서비스 상태 확인
 ```
+https://www.cloudera.com/documentation/enterprise/5-15-x/topics/install_cm_server.html
