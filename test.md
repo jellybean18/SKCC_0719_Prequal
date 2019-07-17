@@ -71,3 +71,15 @@ sudo systemctl start ntpd --> 서비스 시작
 systemctl status ntpd --> 서비스 상태 확인
 ```
 https://www.cloudera.com/documentation/enterprise/5-15-x/topics/install_cm_server.html
+
+# b.
+```
+sudo yum install oracle-j2sdk1.7 --> jdk 설치
+
+jdbc
+wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.47.tar.gz
+tar zxvf mysql-connector-java-5.1.47.tar.gz
+sudo mkdir -p /usr/share/java/
+cd mysql-connector-java-5.1.47
+sudo cp mysql-connector-java-5.1.47-bin.jar /usr/share/java/mysql-connector-java.jar
+```
