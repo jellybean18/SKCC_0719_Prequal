@@ -74,6 +74,10 @@ https://www.cloudera.com/documentation/enterprise/5-15-x/topics/install_cm_serve
 
 # b.
 ```
+- Configure the repository for CM 5.15.2
+  $ sudo yum install -y wget
+  $ sudo wget https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/cloudera-manager.repo -P /etc/yum.repos.d/
+
 sudo yum install oracle-j2sdk1.7 --> jdk 설치
 
 jdbc
